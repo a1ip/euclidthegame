@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html>
+  {% include head.html %}
+  <div id="Menu">
+    {% include menu.html %}
+  </div>
+  <div id="page">
+      
 
-<head>
-	<title>Euclid: The Game</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="/euclidthegame/stylesheet.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	</head>
+        <body>
 
-<body>
-<script type="text/javascript" src="/euclidthegame/deployggb.js"></script>
-{% include analytics.html %}
+        {% include analytics.html %}
+        {% include header.html %}
 
-{{content}}
-{% include footer.html %}
+          {{ content }}
 
 
-				
-                </body>
+        {% include footer.html %}
 
+    </body>
+    </div>
 </html>

@@ -1,9 +1,19 @@
-name: "Euclid: The Game"
-description: "A game created with Geogebra"
+# Site settings
+title: "Euclid: The Game"
+email: "kasperpeulen@gmail.com"
+description: "This website tries to gamify The Elements a book written by Euclid."
+baseurl: ""
+url: "http://euclidthegame.com"
 
-url: "http://localhost:4000"
+# Defaults
+defaults:
+    -
+        scope:
+            path: ""
+        values:
+            cat: notSorted
 
-paginate: 10
 
-markdown: rdiscount
+# Build settings
+markdown: kramdown
 permalink: pretty
